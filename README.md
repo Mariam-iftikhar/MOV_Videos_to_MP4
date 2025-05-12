@@ -18,7 +18,14 @@ Step 2: Download and Install FFmpeg
 
 * I downloaded FFmpeg from the official Gyan.dev site.
 * I unzipped the downloaded folder and placed it in a safe location on my computer (e.g., C:/ffmpeg).
-* I added the bin folder (e.g., C:/ffmpeg/bin) to my System PATH environment variable, which lets me use ffmpeg from the command line or R.
+* I added the bin folder (e.g., C:/ffmpeg/bin) to my System PATH environment variable, which lets me use ffmpeg from the command line or R. This can be done as follows:
+  
+  Add to PATH:
+  1. Press Windows + S → Search for: environment variables.
+  2. Click: “Edit the system environment variables”.
+  3. In the System Properties window → Click “Environment Variables…”
+  4. In the System Variables section → Find and click Path → Click Edit
+  5. Click New, then paste the bin folder path that you have on your computer. (C:\Users\maria\Downloads\ffmpeg-7.1.1-essentials_build\ffmpeg-7.1.1-essentials_build\bin)
 
 Step 3: Write the Conversion Script in R
 
